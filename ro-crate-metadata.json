@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-20T17:04:47.611475",
+            "datePublished": "2023-02-16T09:25:01.460452",
             "hasPart": [
                 {
                     "@id": "fragment-based-docking-scoring.ga"
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_main_1"
                 }
             ],
             "name": "fragment-based-docking-scoring/main"
@@ -64,10 +64,10 @@
             ],
             "creator": [
                 {
-                    "@id": "#0000-0002-0621-6705"
+                    "@id": "https://orcid.org/0000-0002-0621-6705"
                 },
                 {
-                    "@id": "#0000-0001-6879-5194"
+                    "@id": "https://orcid.org/0000-0001-6879-5194"
                 }
             ],
             "name": "fragment-based-docking-scoring/main",
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/fragment-based-docking-scoring",
-            "version": "0.1.2"
+            "version": "0.1.4"
         },
         {
             "@id": "#galaxy",
@@ -90,12 +90,12 @@
             "version": "v19_09"
         },
         {
-            "@id": "#0000-0002-0621-6705",
+            "@id": "https://orcid.org/0000-0002-0621-6705",
             "@type": "Person",
             "name": "Simon Bray"
         },
         {
-            "@id": "#0000-0001-6879-5194",
+            "@id": "https://orcid.org/0000-0001-6879-5194",
             "@type": "Person",
             "name": "Tim Dudgeon"
         },
@@ -104,25 +104,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_main_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "fragment-based-docking-scoring-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_main_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "fragment-based-docking-scoring.ga"
             },
-            "name": "test1"
+            "name": "test_main_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_main_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_main_1_1",
             "resource": "repos/iwc-workflows/fragment-based-docking-scoring/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -146,7 +146,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.9"
+            "engineVersion": ">=0.75.5"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
