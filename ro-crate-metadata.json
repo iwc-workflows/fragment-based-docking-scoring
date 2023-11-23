@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-02-16T09:30:08.832459",
+            "datePublished": "2023-11-23T13:33:07.967044",
             "hasPart": [
                 {
                     "@id": "fragment-based-docking-scoring.ga"
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/fragment-based-docking-scoring",
-            "version": "0.1.4"
+            "version": "0.1.5"
         },
         {
             "@id": "#galaxy",
@@ -146,7 +146,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.5"
+            "engineVersion": ">=0.75.18"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
